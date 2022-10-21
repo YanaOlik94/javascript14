@@ -1,0 +1,47 @@
+{
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.profiles.windows": {
+    "Cmder": {
+      "path": "${env:windir}\\System32\\cmd.exe",
+      "args": ["/k", "D:\\Cmder\\vendor\\init.bat"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Cmder",
+  "files.autoSave": "onWindowChange",
+  "files.exclude": {
+      "**/.idea": true
+  },
+  "editor.codeActionsOnSave":  {
+    "source.fixAll.tslint": true,
+    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.minimap.maxColumn": 80,
+  "editor.mouseWheelZoom": true,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.format.enable": true,
+  "git.enableSmartCommit": true,
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.quote": "'",
+  "ecsstractor_port.bem_nesting": true,
+  "editor.bracketPairColorization.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all"
+}
